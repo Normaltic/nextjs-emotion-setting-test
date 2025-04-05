@@ -1,0 +1,8 @@
+{
+  "name": "nextjs-emotion-setting-test",
+  "private": true,
+  "workspaces": [
+    "approuter",
+    "pagerouter"
+  ]
+}
