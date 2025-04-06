@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { Test, FirstBlack } from "@/components/Test";
+
 export default function Home() {
   return (
     <>
@@ -7,7 +9,11 @@ export default function Home() {
         <title>Page router with emotion</title>
       </Head>
       <div>
-        <main></main>
+        <main>
+          <FirstBlack>
+            <Test>Test</Test>
+          </FirstBlack>
+        </main>
       </div>
     </>
   );
